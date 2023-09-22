@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "FantasqueSansMono-Italic.ttf";
+    src: url("../fonts/FantasqueSansMono-Italic.ttf") format("trutype");
+    font-style: italic;
+    font-weight: 200;
+}
+
+p{
+    font-family: "FantasqueSansMono-Italic";
+    font-family: 'Fantasque Sans Mono', sans-serif;
+    font-style: italic;
+}
+.moeono{
+    color: yellowgreen;
+    /* задаем цвет */
+}
+
+h1{
+/* h1 без точек - все h1 будут одного цвета */
+    color:blue
+    /* задаем цвет */
+}
+#dom{
+
+    font-size: 100px;
+    /* задаем размер */
+}
+
+ul li {
+
+    color: brown;
+    font-size: large;
+    /* задаем цвет элементов списка */
+}
+
+nav > ul{
+    background-color: lime;
+    border-radius: 10px;
+/* меняем цвет заднего фона списков */
+/* закругляем фрейм списка */
+}
+
+a{
+    color:red;
+}
+/* это цвет ссылки не активной не активированной просто в покое находящейся */
+a:hover{
+    color:salmon;
+}
+/* это цвет наведенной ссылки */
+h2+p {
+
+    font-size: small;
+    color: aqua;
+    font-weight: bolder;
+}
+/* когда встречается комбинация h2+p  */
+.ddd{
+
+    color: darkblue;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+}
+.uuu{
+    color: darkblue;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+/* задаем коробочку */
+.fif{
+    width: 90vw;
+    height: 250px;
+    background-color: darkgoldenrod;
+    border-radius: 3px;
+}
+.content-container{
+    background-color: blueviolet;
+    margin-top: 4%;
+    padding-top: 2%;
+}
+/* отступ сверху от контейнера- margin top*/
+/* внутренний отступ - padding-top */
+
+.section{
+    background-color: lightcoral;
+}
+section{
+    background-color: gold;
+}
